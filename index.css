@@ -1,0 +1,39 @@
+#window{
+    display:block;
+    margin:auto 180px;
+    padding: 100 20;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgb(16, 7, 45);  
+}
+
+h1{
+    font-size: bold;
+}
+
+#first-line{
+    color:aliceblue;
+}
+#second-line{
+    color: rgb(47, 255, 71);
+}
+
+#generate-btn{
+    background-color: rgb(47, 255, 71);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+#passwords{
+    display: flex;
+    flex-direction: row;
+    
+}
+.password{
+    background-color: rgb(48, 48, 71);
+    color: rgb(47, 255, 71);
+    margin: 20px;
+    padding: 10px 15px;
+    border: 1px solid rgb(52, 50, 50);
+    border-radius: 10px;
+}
